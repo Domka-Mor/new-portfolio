@@ -131,10 +131,10 @@ export default function BridalSalon() {
 			<BackNav/>
 	     	<div className='parallax3-body'> 		
 		  		<div className='links3'>
-					<a href='https://github.com/Domka-Mor/Shop-mobile-Frontend'>
+					<a href='https://github.com/Domka-Mor/la-novia'>
 				    	<i className="fa fa-brands fa-github"></i>
 				    </a>
-				    <a href='https://mobile-store-fullstack.netlify.app/'>
+				    <a href='https://la-novia.netlify.app/'>
 				    	<i className="fa fa-solid fa-link"></i>
 				    </a>
 				    <p></p>

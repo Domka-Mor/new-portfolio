@@ -107,10 +107,10 @@ export default function BeachResort() {
 			<BackNav/>
 	     	<div className='parallax2-body'>     					
 		  		<div className='links1'>  			
-					<a href='https://github.com/Domka-Mor/Shop-mobile-Frontend'>
+					<a href='https://github.com/Domka-Mor/Beach-Resort'>
 				    	<i className="fa fa-brands fa-github"></i>
 				    </a>
-				    <a href='https://mobile-store-fullstack.netlify.app/'>
+				    <a href='https://beachresort-hotel.netlify.app/'>
 				    	<i className="fa fa-solid fa-link"></i>
 				    </a>
 				    <p></p>

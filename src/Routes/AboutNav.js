@@ -67,7 +67,7 @@ export default function AboutNav(){
 		  		</a>
 	  		</li>
 	  		<li>
-		  		<a href='https://www.linkedin.com/in/dominika-moravi%C4%8Dov%C3%A1-4b470a210?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRUUGZFhRTZuTSKIsNgvmAQ%3D%3D'>
+		  		<a href='www.linkedin.com/in/dominika-moravičová-4b470a210'>
 			    	<i className="fab fa-linkedin"></i>
 			    </a>
 		    </li>
