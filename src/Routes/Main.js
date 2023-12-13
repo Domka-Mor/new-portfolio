@@ -121,7 +121,7 @@ export default function Main() {
 			<div className="upperContainer">
 	      		<div className='new'>
 	      			<div className='imgDiv'>
-						<img src='/Images/image9.png' alt='img' className='imgbg'/>
+						<img src='/Images/image12.png' alt='img' className='imgbg'/>
 					</div>
 					<div id='mainDiv'>				
 				      	<div className='bounce1'>

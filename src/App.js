@@ -6,11 +6,23 @@ import BeachResort from './Routes/BeachResort';
 import PhoneStore from './Routes/PhoneStore';
 import BridalSalon from './Routes/BridalSalon';
 import Error from './Routes/Error';
-import React from "react";
+import PreLoader from './Routes/PreLoader';
+import React, {useState, useEffect} from "react";
 
 function App() {
-  
-  return(
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleLoading = () => {
+    setIsLoading(false);
+  }
+
+  useEffect(()=>{
+    window.addEventListener("load",handleLoading);
+    return () => window.removeEventListener("load",handleLoading);
+  },[])
+
+  return !isLoading ? (
     <>           
       <div className="App">
         <Routes>
@@ -22,7 +34,7 @@ function App() {
         </Routes>
         </div>
     </>
-  );
+  ) : (<PreLoader/>);
 }
 
 export default App;

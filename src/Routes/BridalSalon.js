@@ -150,10 +150,7 @@ export default function BridalSalon() {
 								<li>React</li>
 								<li>Bootstrap</li>
 								<li>styled-components</li>
-								<li>Node.js</li>
-								<li>Express.js</li>
-								<li>GraphQL</li>
-								<li>MongoDB</li>
+								<li>gsap</li>
 							</ul>
 						    <p></p>
 				  		</div>			
