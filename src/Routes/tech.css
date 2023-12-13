@@ -1,0 +1,253 @@
+.loco{
+  font-family: monospace;
+  font-weight: bold;
+  overflow: hidden;
+  background-color:hsla(0,0%,0%,1);
+  background-image:
+  radial-gradient(at 52% 54%, hsla(28,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(358,9%,97%,0.16) 0px, transparent 50%);
+  box-shadow: 0 -1px 0 #000;
+}
+
+.section{
+  position: relative;
+  height: 1000vh;
+  width: 100%;
+  display: flex;
+}
+
+.lerp-wrapa2{
+  visibility: hidden;
+}
+
+.lerp-wrapa{
+  visibility: visible;
+}
+
+.line{
+  position: fixed;
+  line-height: 0;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.word{
+  position: relative;
+  line-height: 1;
+}
+
+.char{
+  font-size: clamp(32px, 5vw, 8vw);
+  font-size: 100px;
+  padding: 30px;
+  margin-left: 0.5rem;
+  box-shadow: #D0BFFF 0px 30px 80px -30px;
+  color: #D0BFFF;
+}
+
+#second .char{
+  box-shadow: #E4AEC5 0px 30px 80px -30px;
+  color: #E4AEC5;
+}
+
+#tech .char{
+  box-shadow: #E4AEC5 0px 30px 80px -30px;
+  color: white;
+}
+
+@media screen and (max-width: 1900px) {
+  .line{
+    top: 50%;
+    left: 60%;
+  }
+  .char{
+    font-size: 65px;
+    padding: 30px;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+
+  .line{
+    top: 50%;
+    left: 53%;
+  }
+  .char{
+    font-size: 65px;
+    padding: 30px;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+  .line{
+    top: 50%;
+    left: 53%;
+  }
+  .char{
+    font-size: 60px;
+    padding: 30px;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .lerp-wrapa{
+    visibility: hidden;
+  }
+
+  .lerp-wrapa2{
+    visibility: visible;
+  }
+
+  .line{
+    top: 50%;
+    left: 60%;
+  }
+  .char{
+    font-size: 100px;
+    padding: 30px;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .line{
+    top: 50%;
+    left: 55%;
+  }
+  .char{
+    font-size: 80px;
+    padding: 30px;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .line{
+    top: 50%;
+    left: 53%;
+  }
+  .char{
+    font-size: 60px;
+    padding: 30px;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .line{
+    top: 50%;
+    left: 53%;
+  }
+  .char{
+    font-size: 40px;
+    padding: 25px;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+
+  .line{
+    top: 50%;
+    left: 53%;
+  }
+  .char{
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 0.4rem;
+    box-shadow: #D0BFFF 0px 20px 60px -20px;
+  }
+
+  #second .char{
+    box-shadow: #E4AEC5 0px 20px 60px -20px;
+    color: #E4AEC5;
+  }
+
+  #tech .char{
+    box-shadow: #E4AEC5 0px 20px 60px -20px;
+    color: white;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .line{
+    top: 50%;
+    left: 53%;
+  }
+  .char{
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 0.4rem;
+    box-shadow: #D0BFFF 0px 13px 45px -13px;
+  }
+
+  #second .char{
+    box-shadow: #E4AEC5 0px 13px 45px -13px;
+    color: #E4AEC5;
+  }
+
+  #tech .char{
+    box-shadow: #E4AEC5 0px 13px 45px -13px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .line{
+    top: 50%;
+    left: 53%;
+  }
+  .char{
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .line{
+    top: 50%;
+    left: 55%;
+  }
+  .char{
+    font-size: 22px;
+    padding: 12px;
+    margin-left: 0.4rem;
+    box-shadow: #D0BFFF 0px 10px 35px -10px;
+  }
+
+  #second .char{
+    box-shadow: #E4AEC5 0px 10px 35px -10px;
+    color: #E4AEC5;
+  }
+
+  #tech .char{
+    box-shadow: #E4AEC5 0px 10px 35px -10px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .line{
+    top: 50%;
+    left: 53%;
+  }
+  .char{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 0.5rem;
+  }
+}

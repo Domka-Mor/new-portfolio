@@ -1,0 +1,59 @@
+/*Tube*/
+canvas {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+}
+
+.ball-text {
+  position: fixed;
+  z-index: 2;
+  color: white;
+  font-size: 8rem;
+  right: 15%;
+  bottom: 50%;
+  transform: translate(-20%, -40%);
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .ball-text {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ball-text {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ball-text {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ball-text {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ball-text {
+    font-size: 2.2rem;
+  }
+}
+
+#page {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+/*  background: url("/public/best-ball/1.jpg");*/
+  background: url("/public/gulka3/1.jpg");
+  background-size: cover;
+}
+

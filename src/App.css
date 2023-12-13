@@ -1,0 +1,71 @@
+body{
+  background-color: black;
+  color: white;
+  cursor: default;
+}
+
+/*err*/
+.err{
+  background: black;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 7rem;
+  width:100%;
+  height: 100vh;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1024px){
+  .err{
+    padding-right: 5rem;
+  }
+  #skriatok, #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: auto;
+  }
+}
+
+@media (max-width: 1024px){
+  .err{
+    padding-right: 4rem;
+  }
+  #skriatok, #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: auto;
+  }
+}
+
+@media (max-width: 620px){
+  .err{
+    padding-right: 3rem;
+  }
+  #skriatok, #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: auto;
+  }
+}
+
+@media (max-width: 450px){
+  .err{
+    padding-right: 2rem;
+  }
+  #skriatok, #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: auto;
+  }
+}
