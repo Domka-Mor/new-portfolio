@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
 import './phoneStore.css';
-import BackNav from './BackNav';
+import BackNav from '../BackNav';
 import { gsap } from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 
