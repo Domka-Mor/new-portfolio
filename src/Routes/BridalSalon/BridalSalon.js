@@ -175,7 +175,7 @@ export default function BridalSalon() {
 					<section className='parallax3-section' id='bridalSec4'>								
 						<div id='bridalText4'>
 							<h3>Modern Dresscode</h3>
-							<p>>Smooth scrolling, component's reveal on scroll and custom carousels for better UI/UX experience.</p>
+							<p>Smooth scrolling, component's reveal on scroll and custom carousels for better UI/UX experience.</p>
 						</div>		
 						<div id='bridalDiv3'>
 							<div className="content8">
