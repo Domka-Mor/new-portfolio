@@ -609,7 +609,7 @@ export default function MobileRoute() {
 									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/bg3.jpg' 
 										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/bg3.jpg 400w, 
 											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/bg3.jpg 1600w,
-											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/bg3.jpg 2000w
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/bg3.jpg 2000w'
 									alt='img' 
 									id='bg'
 								/>
