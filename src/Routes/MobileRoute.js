@@ -581,15 +581,7 @@ export default function MobileRoute() {
 									<img src='https://ik.imagekit.io/9nwcjxetq/paralax/hotel4.png' alt='img' id='palm2'/>
 									<img src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/hotel7.png' alt='img' id='palm3'/>
 								</div>						
-								<img 
-									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/1c.png' 
-										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/1c.png 400w,
-											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/1c.png 1200w,
-											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-2000/1c.png 1600w,
-											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-2400/1c.png 2000w'
-									alt='img' 
-									id='palm4'
-								/>
+								<img src='https://ik.imagekit.io/9nwcjxetq/paralax/1c.png' alt='img' id='palm4'/>
 							 	<h2 className='beach'>Beach</h2>
 							    <h2 className='resort'>Resort</h2>							   
 						    </div>					    
@@ -649,17 +641,17 @@ export default function MobileRoute() {
 						<div className="photos">									
 							<div className='skuskaWed2'>
 								<div className='cloudss3'>
-									<img src='/paralax/cloud2.png' alt='img' id='x2'/>		
-									<img src='/paralax/cloud4.png' alt='img' id='x4'/>		
+									<img src='https://ik.imagekit.io/9nwcjxetq/paralax/cloud2.png' alt='img' id='x2'/>		
+									<img src='https://ik.imagekit.io/9nwcjxetq/paralax/cloud4.png' alt='img' id='x4'/>		
 								</div>	
 								<h2 id='textWed'>Bridal salon</h2>			
 								<img src='https://ik.imagekit.io/9nwcjxetq/paralax/mmmm.jpg' alt='img' id='sk2'/>	
 								<div className='cloudss2'>
-									<img src='/paralax/cloud1.png' alt='img' style={{"--i":1}}/>	
-									<img src='/paralax/cloud2.png' alt='img' style={{"--i":2}}/>	
-									<img src='/paralax/cloud3.png' alt='img' style={{"--i":3}}/>	
-									<img src='/paralax/cloud4.png' alt='img' style={{"--i":4}}/>
-									<img src='/paralax/cloud5.png' alt='img' style={{"--i":5}}/>		
+									<img src='https://ik.imagekit.io/9nwcjxetq/paralax/cloud1.png' alt='img' style={{"--i":1}}/>	
+									<img src='https://ik.imagekit.io/9nwcjxetq/paralax/cloud2.png' alt='img' style={{"--i":2}}/>	
+									<img src='https://ik.imagekit.io/9nwcjxetq/paralax/cloud3.png' alt='img' style={{"--i":3}}/>	
+									<img src='https://ik.imagekit.io/9nwcjxetq/paralax/cloud4.png' alt='img' style={{"--i":4}}/>
+									<img src='https://ik.imagekit.io/9nwcjxetq/paralax/cloud5.png' alt='img' style={{"--i":5}}/>		
 								</div>
 							</div>						
 						</div>

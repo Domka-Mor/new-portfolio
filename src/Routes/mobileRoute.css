@@ -507,6 +507,9 @@
   #palm3{
     bottom: 5%;
   }
+  #palm4{
+    left: 0px;
+  }
 }
 
 @media (max-width: 768px)and (min-height: 1020px) {
