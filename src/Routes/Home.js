@@ -15,9 +15,9 @@ export default function Home() {
 
 	return (
 		<>	
-			<AboutNav/>	
-			<Main/>				
+			<AboutNav/>						
 			<Suspense fallback={<PreLoader/>}>
+				<Main/>	
 			  	<Tech/>
 				<Tube/>
 				<MobileRoute/>
