@@ -24,8 +24,16 @@
   visibility: visible;
 }
 
-.line{
+/*.line{
   position: fixed;
+  line-height: 0;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}*/
+
+.line{
+  position: relative;
   line-height: 0;
   top: 50%;
   left: 60%;

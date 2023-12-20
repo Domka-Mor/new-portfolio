@@ -372,8 +372,7 @@
 .links1 i{
   margin: 0.8rem 0;
   background: transparent;
-  color: white;
-  font-size: 1.2rem;
+  color: #f6f6f6;
 }
 
 .links1 p,.links2 p{
@@ -382,22 +381,28 @@
   width: 0;
   margin-top: 0.8rem;
   margin-left: 0.5rem;
+  background: transparent;
 }
 
 .links2 li{
   color: #f6f6f6;
-  font-size: 1.2rem !important;
+  font-size: 1.1rem;
   text-decoration: none;
+  list-style: none;
   margin: 0.8rem 0;
 } 
 
-.links2 li:nth-child(1){
-  font-size: 1.5rem !important;
+.links2 ul{
+  padding: 0;
+  margin-left: 0.5rem;
+  margin-bottom: 0;
 } 
 
-.links2 li:nth-child(4){
-  margin-bottom: 0rem !important;
-} 
+@keyframes animateS{
+	0% {transform:translateY(0px)}
+	50% {transform:translateY(10px)}
+	100% {transform:translateY(0px)}
+}
 
 @media (max-width: 1440px) {
   .links1, .links2 {
@@ -407,7 +412,7 @@
 	  margin: 0.6rem 0 !important;
   	font-size: 1rem !important;
 	}
-	.links2 li,.links2 ul{
+	.links2 li{
 	  margin: 0.4rem 0 !important;
   	font-size: 1rem !important;
 	}
@@ -419,13 +424,12 @@
   	height: 5rem !important;
 	}
 }
-
 @media (max-width: 1024px) {
   .links1 i{
 	  margin: 0.5rem 0 !important;
   	font-size: 0.8rem !important;
 	}
-	.links2 li,.links2 ul{
+	.links2 li{
 	  margin: 0.3rem 0 !important;
   	font-size: 0.8rem !important;
 	}
@@ -436,16 +440,18 @@
   .links1 p,.links2 p{
   	height: 4rem !important;
   	margin-top: 0.6rem !important;
-  	margin-left: 0.23rem !important;
+  	margin-left: 0.3rem !important;
 	}
+	.links2 ul{
+	  margin-left: 0.3rem;
+	} 
 }
-
 @media (max-width: 425px) {
   .links1 i{
 	  margin: 0.3rem 0 !important;
   	font-size: 0.6rem !important;
 	}
-	.links2 li,.links2 ul{
+	.links2 li{
 	  margin: 0.3rem 0 !important;
   	font-size: 0.6rem !important;
 	}
@@ -457,7 +463,6 @@
   	height: 3rem !important;
 	}
 }
-
 
 /*Responsive*/
 

@@ -130,7 +130,7 @@ export default function BridalSalon() {
 		<>
 			<BackNav/>
 	     	<div className='parallax3-body'> 		
-		  		<div className='links3'>
+		  		<div className='links1'>
 					<a href='https://github.com/Domka-Mor/la-novia'>
 				    	<i className="fa fa-brands fa-github"></i>
 				    </a>
@@ -145,12 +145,11 @@ export default function BridalSalon() {
 					        <h1>La Novia</h1> 
 					        <img src='/Images/bride1.png' alt='img' id='bride'/>	 							              
 					    </div>				   
-						<div className='links4'>
+						<div className='links2'>
 							<ul>
-								<li>React</li>
-								<li>Bootstrap</li>
-								<li>styled-components</li>
-								<li>gsap</li>
+								<li>Bridal Salon</li>
+								<li>Bootstrap / styled-components</li>
+								<li>React / gsap</li>
 							</ul>
 						    <p></p>
 				  		</div>			

@@ -26,6 +26,8 @@ export default function NewAbout3() {
 			techs.forEach(tech => {
 				const splitTech = new SplitType(tech)
 
+				tl.to(splitTech.lines, {position: 'fixed'});
+
 				tl
 				.from(splitTech.chars,{
 					opacity:0,
@@ -59,6 +61,8 @@ export default function NewAbout3() {
 
 			techs.forEach(tech => {
 				const splitTech = new SplitType(tech)
+
+				tl.to(splitTech.lines, {position: 'fixed'});
 
 				tl
 				.from(splitTech.chars,{
@@ -94,6 +98,8 @@ export default function NewAbout3() {
 			techs.forEach(tech => {
 				const splitTech = new SplitType(tech)
 
+				tl.to(splitTech.lines, {position: 'fixed'});
+
 				tl
 				.from(splitTech.chars,{
 					opacity:0,
@@ -127,6 +133,8 @@ export default function NewAbout3() {
 
 			techs.forEach(tech => {
 				const splitTech = new SplitType(tech)
+
+				tl.to(splitTech.lines, {position: 'fixed'});
 
 				tl
 				.from(splitTech.chars,{

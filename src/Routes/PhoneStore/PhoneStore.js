@@ -177,12 +177,10 @@ export default function PhoneStore() {
 						</div>	
 						<div className='links2'>
 							<ul>
-								<li>React</li>
-								<li>Bootstrap</li>
-								<li>styled-components</li>
-								<li>Node.js</li>
-								<li>Express.js</li>
-								<li>MongoDB</li>
+								<li>Phone e-commerce</li>
+								<li>Bootstrap / styled-components</li>
+								<li>React / Node</li>
+								<li>Express / MongoDB</li>
 							</ul>
 						    <p></p>
 				  		</div>		

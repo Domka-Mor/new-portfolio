@@ -209,8 +209,8 @@
 	height:auto;
 	width: 100%;
 	background: transparent;
-	top:-15%;
-	left:0%;
+	top:30%;
+	left:3%;
 	z-index: 1;
 	animation: animateS 5s linear infinite;
 }
@@ -262,7 +262,7 @@
 
 
 /*LInks*/
-.links3{
+.links1{
   z-index:10;
   display: grid;
   width: auto;
@@ -276,7 +276,7 @@
   background: transparent;
 }
 
-.links4{
+.links2{
   display: grid;
   width: auto;
   position:absolute;
@@ -289,17 +289,17 @@
   background: transparent;
 }
 
-.links3 a{
+.links1 a{
   background: transparent;
 } 
 
-.links3 i{
+.links1 i{
   margin: 0.8rem 0;
   background: transparent;
   color: #f6f6f6;
 }
 
-.links3 p,.links4 p{
+.links1 p,.links2 p{
   border: 1px solid #f6f6f6;
   height: 7rem;
   width: 0;
@@ -308,7 +308,7 @@
   background: transparent;
 }
 
-.links4 li{
+.links2 li{
   color: #f6f6f6;
   font-size: 1.1rem;
   text-decoration: none;
@@ -316,6 +316,11 @@
   margin: 0.8rem 0;
 } 
 
+.links2 ul{
+  padding: 0;
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+} 
 
 @keyframes animateS{
 	0% {transform:translateY(0px)}
@@ -326,58 +331,61 @@
 /*responsive*/
 /*Links*/
 @media (max-width: 1440px) {
-  .links3, .links4 {
+  .links1, .links2 {
   	padding-bottom: 0.5rem !important;
   }
-  .links3 i{
+  .links1 i{
 	  margin: 0.6rem 0 !important;
   	font-size: 1rem !important;
 	}
-	.links4 li,.links4 ul{
+	.links2 li{
 	  margin: 0.4rem 0 !important;
   	font-size: 1rem !important;
 	}
-	.links4 li:nth-child(1){
+	.links2 li:nth-child(1){
 	  font-size: 1.2rem !important;
 	} 
 
-  .links3 p,.links4 p{
+  .links1 p,.links2 p{
   	height: 5rem !important;
 	}
 }
 @media (max-width: 1024px) {
-  .links3 i{
+  .links1 i{
 	  margin: 0.5rem 0 !important;
   	font-size: 0.8rem !important;
 	}
-	.links4 li,.links4 ul{
+	.links2 li{
 	  margin: 0.3rem 0 !important;
   	font-size: 0.8rem !important;
 	}
-	.links4 li:nth-child(1){
+	.links2 li:nth-child(1){
 	  font-size: 1rem !important;
 	} 
 
-  .links3 p,.links4 p{
+  .links1 p,.links2 p{
   	height: 4rem !important;
   	margin-top: 0.6rem !important;
-  	margin-left: 0.23rem !important;
+  	margin-left: 0.3rem !important;
 	}
+	.links2 ul{
+	  margin-left: 0.3rem;
+	} 
 }
 @media (max-width: 425px) {
-  .links3 i{
+  .links1 i{
 	  margin: 0.3rem 0 !important;
   	font-size: 0.6rem !important;
 	}
-	.links4 li,.links4 ul{
+	.links2 li{
 	  margin: 0.3rem 0 !important;
   	font-size: 0.6rem !important;
 	}
-	.links4 li:nth-child(1){
+	.links2 li:nth-child(1){
 	  font-size: 0.8rem !important;
 	} 
 
-  .links3 p,.links4 p{
+  .links1 p,.links2 p{
   	height: 3rem !important;
 	}
 }
@@ -673,7 +681,7 @@
 	  height: 32rem;
 	}
 	#br4{
-		top:35%;
+		top:30%;
 		left:3%;
 	}
 }

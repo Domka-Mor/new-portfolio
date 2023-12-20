@@ -470,6 +470,7 @@ svg{
   width: 0;
   margin-top: 0.8rem;
   margin-left: 0.5rem;
+  background: transparent;
 }
 
 .links2 li{
@@ -477,11 +478,21 @@ svg{
   font-size: 1.1rem;
   text-decoration: none;
   list-style: none;
-   margin: 0.8rem 0;
+  margin: 0.8rem 0;
 } 
 
-/*Responsive*/
-/*Links*/
+.links2 ul{
+  padding: 0;
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+} 
+
+@keyframes animateS{
+	0% {transform:translateY(0px)}
+	50% {transform:translateY(10px)}
+	100% {transform:translateY(0px)}
+}
+
 @media (max-width: 1440px) {
   .links1, .links2 {
   	padding-bottom: 0.5rem !important;
@@ -490,7 +501,7 @@ svg{
 	  margin: 0.6rem 0 !important;
   	font-size: 1rem !important;
 	}
-	.links2 li,.links2 ul{
+	.links2 li{
 	  margin: 0.4rem 0 !important;
   	font-size: 1rem !important;
 	}
@@ -507,7 +518,7 @@ svg{
 	  margin: 0.5rem 0 !important;
   	font-size: 0.8rem !important;
 	}
-	.links2 li,.links2 ul{
+	.links2 li{
 	  margin: 0.3rem 0 !important;
   	font-size: 0.8rem !important;
 	}
@@ -518,15 +529,18 @@ svg{
   .links1 p,.links2 p{
   	height: 4rem !important;
   	margin-top: 0.6rem !important;
-  	margin-left: 0.23rem !important;
+  	margin-left: 0.3rem !important;
 	}
+	.links2 ul{
+	  margin-left: 0.3rem;
+	} 
 }
 @media (max-width: 425px) {
   .links1 i{
 	  margin: 0.3rem 0 !important;
   	font-size: 0.6rem !important;
 	}
-	.links2 li,.links2 ul{
+	.links2 li{
 	  margin: 0.3rem 0 !important;
   	font-size: 0.6rem !important;
 	}
