@@ -653,14 +653,7 @@ export default function MobileRoute() {
 									<img src='/paralax/cloud4.png' alt='img' id='x4'/>		
 								</div>	
 								<h2 id='textWed'>Bridal salon</h2>			
-								<img 
-									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mmmm.jpg' 
-										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mmmm.jpg 400w, 
-											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-2000/mmmm.jpg 1600w,
-											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-2400/mmmm.jpg 2000w 
-									alt='img' 
-									id='sk2'
-								/>	
+								<img src='https://ik.imagekit.io/9nwcjxetq/paralax/mmmm.jpg' alt='img' id='sk2'/>	
 								<div className='cloudss2'>
 									<img src='/paralax/cloud1.png' alt='img' style={{"--i":1}}/>	
 									<img src='/paralax/cloud2.png' alt='img' style={{"--i":2}}/>	
