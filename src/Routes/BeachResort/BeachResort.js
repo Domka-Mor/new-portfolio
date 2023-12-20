@@ -139,7 +139,7 @@ export default function BeachResort() {
 						<div id='beachDiv2'>								
 							<div className="content4">
 								<div className='overlayBea'>
-									<img src='https://ik.imagekit.io/9nwcjxetq/Images/beach.png' alt='img' id='beach2'/>						
+									<img src='https://ik.imagekit.io/9nwcjxetq/Images/beach1.png' alt='img' id='beach2'/>						
 								</div>	
 							    <img 
 							    	id='beach1' 
