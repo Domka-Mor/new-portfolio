@@ -567,13 +567,45 @@ export default function MobileRoute() {
 					<Link to={'/projects/beachresort'}>	
 						<div className="photos">											
 							<div className='palmD2'>								
-								<img src='/paralax/2.jpg' alt='img' id='bgPalm'/>
+								<img 
+									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/2.jpg' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/2.jpg 400w, 
+										https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/2.jpg 800w,
+										https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/2.jpg 1200w,
+										https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/2.jpg 1600w'
+									alt='img' 
+									id='bgPalm'
+								/>
 								<img src='/paralax/mesiac.png' alt='img' id='palm1'/>
 								<div className='secPalm'>
-									<img src='/paralax/hotel4.png' alt='img' id='palm2'/>
-									<img src='/paralax/hotel7.png' alt='img' id='palm3'/>
+									<img 
+										src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/hotel4.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/hotel4.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/hotel4.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/hotel4.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/hotel4.png 1600w'
+										alt='img' 
+										id='palm2'
+									/>
+									<img 
+										src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/hotel7.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/hotel7.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/hotel7.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/hotel7.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/hotel7.png 1600w'
+										alt='img' 
+										id='palm3'
+									/>
 								</div>						
-								<img src='/paralax/1c.png' alt='img' id='palm4'/>
+								<img 
+									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/1c.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/1c.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/1c.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/1c.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/1c.png 1600w'
+									alt='img' 
+									id='palm4'
+								/>
 							 	<h2 className='beach'>Beach</h2>
 							    <h2 className='resort'>Resort</h2>							   
 						    </div>					    
@@ -597,14 +629,56 @@ export default function MobileRoute() {
 					<Link to={'/projects/phonestore'}>	
 						<div className="photos">										
 						    <div className='mainParalax8'>
-								<img src='/paralax/bg3.jpg' alt='img' id='bg'/>
+								<img 
+									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/bg3.jpg' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/bg3.jpg 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/bg3.jpg 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/bg3.jpg 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/bg3.jpg 1600w'
+									alt='img' 
+									id='bg'
+								/>
 								<h2 id='text'>Phone Store</h2>
-								<img src='/paralax/man10.png' alt='img' id='man1'/>				
+								<img 
+									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/man10.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/man10.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/man10.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/man10.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/man10.png 1600w'
+									alt='img' 
+									id='man1'
+								/>				
 								<img src='/paralax/clouds_1.png' alt='img' id='clouds_1'/>
 								<img src='/paralax/clouds_2.png' alt='img' id='clouds_2'/>
-								<img src='/paralax/mountain_left.png' alt='img' id='mountain_left'/>
-								<img className='d-block d-sm-none' alt='img' src='/paralax/mountain_left2.png' id='mountain_right'/>
-								<img className='d-none d-sm-block' alt='img' src='/paralax/mountain_right.png' id='mountain_right'/>
+								<img 
+									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mountain_left.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/mountain_left.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mountain_left.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/mountain_left.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/mountain_left.png 1600w'
+									alt='img' 
+									id='mountain_left'
+								/>
+								<img 
+									className='d-block d-sm-none' 
+									alt='img' 
+									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mountain_left2.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/mountain_left2.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mountain_left2.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/mountain_left2.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/mountain_left2.png 1600w'
+									id='mountain_right'
+								/>
+								<img 
+									className='d-none d-sm-block' 
+									alt='img' 
+									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mountain_right.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/mountain_right.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mountain_right.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/mountain_right.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/mountain_right.png 1600w'
+									id='mountain_right'
+								/>
 							</div>				
 						</div>
 					</Link>	
@@ -630,7 +704,15 @@ export default function MobileRoute() {
 									<img src='/paralax/cloud4.png' alt='img' id='x4'/>		
 								</div>	
 								<h2 id='textWed'>Bridal salon</h2>			
-								<img src='/paralax/mmmm.jpg' alt='img' id='sk2'/>	
+								<img 
+									src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mmmm.jpg' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/mmmm.jpg 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/mmmm.jpg 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/mmmm.jpg 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/mmmm.jpg 1600w' 
+									alt='img' 
+									id='sk2'
+								/>	
 								<div className='cloudss2'>
 									<img src='/paralax/cloud1.png' alt='img' style={{"--i":1}}/>	
 									<img src='/paralax/cloud2.png' alt='img' style={{"--i":2}}/>	

@@ -141,8 +141,24 @@ export default function BeachResort() {
 								<div className='overlayBea'>
 									<img src='/Images/beach1.png' alt='img' id='beach2'/>						
 								</div>	
-							    <img src='/paralax/phone.png' alt='img' id='beach1'/>	
-							    <img src='/Images/c5.png' alt='img' id='b3'/>	 
+							    <img 
+							    	id='beach1' 
+							    	src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/phone.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/phone.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/phone.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/phone.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/phone.png 1600w'
+							    	alt='phone'
+							    />	
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c5.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c5.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c5.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c5.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c5.png 1600w' 
+							    	alt='phone' 
+							    	id='b3'
+							    />	 
 						    </div> 															
 						</div>	
 					</section>
@@ -157,8 +173,24 @@ export default function BeachResort() {
 								<div className='overlayBeach'>
 									<img src='/Images/beach2.png' alt='img' id='bea2'/>
 								</div>		
-							    <img src='/Images/lap.png' alt='img' id='bea1'/>
-							    <img src='/Images/c6.png' alt='img' id='b4'/>	
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/lap.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/lap.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/lap.png 1600w'  
+							    	alt='phone' 
+							    	id='bea1'
+							    />
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c6.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c6.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c6.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c6.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c6.png 1600w' 
+							    	alt='phone' 
+							    	id='b4'
+							    /> 
 						    </div> 			
 						</div>						 
 					</section>
@@ -174,8 +206,24 @@ export default function BeachResort() {
 								<div className='overlayBeach2'>
 									<img src='/Images/beach3.png' alt='img' id='bea6'/>
 								</div>		
-							    <img src='/Images/lap.png' alt='img' id='bea5'/>
-							    <img src='/Images/c6.png' alt='img' id='b4'/>	
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/lap.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/lap.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/lap.png 1600w'  
+							    	alt='phone' 
+							    	id='bea1'
+							    />
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c6.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c6.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c6.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c6.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c6.png 1600w' 
+							    	alt='phone' 
+							    	id='b4'
+							    /> 
 						    </div> 	
 						</div>						
 					</section>

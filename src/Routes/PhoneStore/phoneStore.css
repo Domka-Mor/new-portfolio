@@ -28,43 +28,78 @@
 }
 
 .parallax1-container .parallax1-section:nth-child(1){
-	background: url("/public/Images/gg.jpg");
 	background-size: cover;
 	background-position: center 15%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+
+	background-image: url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg");
+  background-image: -webkit-image-set(
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/gg.jpg") 400w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg") 800w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/gg.jpg") 1200w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/gg.jpg") 1600w
+  );
 }
 
 .parallax1-container .parallax1-section:nth-child(2){
-	background: url("/public/Images/gg.jpg");
 	background-size: cover;
 	background-position: center 25%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+
+	background-image: url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg");
+  background-image: -webkit-image-set(
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/gg.jpg") 400w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg") 800w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/gg.jpg") 1200w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/gg.jpg") 1600w
+  );
 }
 
 .parallax1-container .parallax1-section:nth-child(3){
-	background: url("/public/Images/gg.jpg");
 	background-size: cover;
 	background-position: center 40%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+
+	background-image: url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg");
+  background-image: -webkit-image-set(
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/gg.jpg") 400w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg") 800w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/gg.jpg") 1200w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/gg.jpg") 1600w
+  );
 }
 
 .parallax1-container .parallax1-section:nth-child(4){
-	background: url("/public/Images/gg.jpg");
 	background-size: cover;
 	background-position: center 65%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+
+	background-image: url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg");
+  background-image: -webkit-image-set(
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/gg.jpg") 400w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg") 800w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/gg.jpg") 1200w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/gg.jpg") 1600w
+  );
 }
 
 .parallax1-container .parallax1-section:nth-child(5){
-	background: url("/public/Images/gg.jpg");
 	background-size: cover;
 	background-position: center 90%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+
+	background-image: url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg");
+  background-image: -webkit-image-set(
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/gg.jpg") 400w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/gg.jpg") 800w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/gg.jpg") 1200w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/gg.jpg") 1600w
+  );
 }
 
 #phoneSec{

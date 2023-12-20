@@ -121,7 +121,15 @@ export default function Main() {
 			<div className="upperContainer">
 	      		<div className='new'>
 	      			<div className='imgDiv'>
-						<img src='/Images/image12.png' alt='img' className='imgbg'/>
+						<img 
+							src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/image9.png' 
+								srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/image9.png 400w, 
+									https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/image9.png 800w,
+									https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/image9.png 1200w,
+									https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/image9.png 1600w' 
+							alt='img' 
+							className='imgbg'
+						/>
 					</div>
 					<div id='mainDiv'>				
 				      	<div className='bounce1'>

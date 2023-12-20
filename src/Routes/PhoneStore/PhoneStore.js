@@ -192,8 +192,24 @@ export default function PhoneStore() {
 							<p>Modern product design with 360° product view, hover effects and more.</p>
 						</div>	
 						<div id='phoneDiv1'>		
-							<img src='/Images/c3.png' alt='phone' id='c1'/>
-							<img src='/Images/c2.png' alt='phone' id='c2'/>		
+							<img 
+								src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c3.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c3.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c3.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c3.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c3.png 1600w' 
+								alt='phone' 
+								id='c1'
+							/>
+							<img  
+								src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c2.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c2.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c2.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c2.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c2.png 1600w' 
+								alt='phone' 
+								id='c2'
+							/>		
 						</div>								 
 					</section>	
 
@@ -207,8 +223,24 @@ export default function PhoneStore() {
 								<div className='overlayPhone'>
 									<img src='/Images/screen1.png' alt='phone' id='phone2'/>
 								</div>		
-							    <img id='phone1' src='/paralax/phone.png' alt='phone'/>	
-							    <img src='/Images/c5.png' alt='phone' id='c3'/>	 
+							    <img 
+							    	id='phone1' 
+							    	src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/phone.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/phone.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/phone.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/phone.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/phone.png 1600w'
+							    	alt='phone'
+							    />	
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c5.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c5.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c5.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c5.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c5.png 1600w' 
+							    	alt='phone' 
+							    	id='c3'
+							    />	 
 						    </div> 					      
 						</div>
 					</section>	
@@ -222,8 +254,24 @@ export default function PhoneStore() {
 								<div className='overlayLap'>
 									<img src='/Images/user.png' alt='phone' id='lap2'/>
 								</div>		
-							    <img src='/Images/lap.png' alt='phone' id='lap1'/>
-							    <img src='/Images/c1.png' alt='phone' id='lap4'/> 
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/lap.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/lap.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/lap.png 1600w'  
+							    	alt='phone' 
+							    	id='lap1'
+							    />
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c1.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c1.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c1.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c1.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c1.png 1600w' 
+							    	alt='phone' 
+							    	id='lap4'
+							    /> 
 						    </div> 		
 						</div>	
 							 
@@ -238,8 +286,24 @@ export default function PhoneStore() {
 								<div className='overlayLap2'>
 									<img src='/Images/admin.png' alt='phone' id='lap6'/>
 								</div>		
-							    <img src='/Images/lap.png' alt='phone' id='lap5'/>
-							    <img src='/Images/c1.png' alt='phone' id='lap4'/> 
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/lap.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/lap.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/lap.png 1600w'  
+							    	alt='phone' 
+							    	id='lap5'
+							    />
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c1.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c1.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c1.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c1.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c1.png 1600w' 
+							    	alt='phone' 
+							    	id='lap4'
+							    /> 
 						    </div> 		
 						</div>		 
 					</section>	

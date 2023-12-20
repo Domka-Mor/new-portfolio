@@ -104,7 +104,7 @@ export default function BridalSalon() {
 			gsap.to('.parallax3-container .parallax3-section:nth-child(2)', {scrollTrigger: {trigger:'.parallax3-container .parallax3-section:nth-child(2)'},backgroundPosition: 'center 50%',delay:0.5,duration:2});
 			gsap.to('.parallax3-container .parallax3-section:nth-child(3)', {scrollTrigger: {trigger:'.parallax3-container .parallax3-section:nth-child(3)'},backgroundPosition: 'center 70%',delay:0.5,duration:2});
 
-			gsap.fromTo('.links3,.links4', {scrollTrigger: {trigger:'.links3,.links4'},opacity:0, y: '100'},{opacity:1, duration:1,delay:1.5,y:0});
+			gsap.fromTo('.links1,.links2', {scrollTrigger: {trigger:'.links1,.links2'},opacity:0, y: '100'},{opacity:1, duration:1,delay:1.5,y:0});
 			gsap.fromTo('.preloaderBridal-body h1', {scrollTrigger: {trigger:'.preloaderBridal-body'},opacity:0, x: '-100'},{opacity:1, duration:1,delay:1,x:0});
 			gsap.fromTo('.preloaderBridal-body img', {scrollTrigger: {trigger:'.preloaderBridal-body'},opacity:0,x:'100'},{opacity:1, duration:1,delay:1,x:0});
 
@@ -143,7 +143,15 @@ export default function BridalSalon() {
 				  	<section className='parallax3-section' id='bridalSec'>						
 					    <div className='preloaderBridal-body'>
 					        <h1>La Novia</h1> 
-					        <img src='/Images/bride1.png' alt='img' id='bride'/>	 							              
+					        <img 
+					        	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bride1.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/bride1.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bride1.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/bride1.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/bride1.png 1600w' 
+					        	alt='img' 
+					        	id='bride'
+					        />	 							              
 					    </div>				   
 						<div className='links2'>
 							<ul>
@@ -165,8 +173,24 @@ export default function BridalSalon() {
 								<div className='overlayBrid'>
 									<img src='/Images/bridal1.png' alt='img' id='bridal2'/>
 								</div>		
-							    <img src='/paralax/phone.png' alt='img' id='bridal1'/>	
-							    <img src='/Images/c5.png' alt='img' id='br3'/>	 
+							     <img 
+							    	id='bridal1' 
+							    	src='https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/phone.png' 
+										srcSet= 'https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-400/phone.png 400w, 
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-800/phone.png 800w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1200/phone.png 1200w,
+											https://ik.imagekit.io/9nwcjxetq/paralax/tr:w-1600/phone.png 1600w'
+							    	alt='phone'
+							    />	
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c5.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c5.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c5.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c5.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c5.png 1600w' 
+							    	alt='phone' 
+							    	id='br3'
+							    />	  
 						    </div> 					      
 						</div>				 
 					</section>
@@ -181,8 +205,24 @@ export default function BridalSalon() {
 								<div className='overlayBridal'>
 									<img src='/Images/bridal4.png' alt='img' id='brid2'/>
 								</div>		
-							    <img src='/Images/lap.png' alt='img' id='brid1'/>
-							    <img src='/Images/c6.png' alt='img' id='br4'/>	 
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/lap.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/lap.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/lap.png 1600w'  
+							    	alt='phone' 
+							    	id='brid1'
+							    />
+							    <img 
+							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c6.png' 
+									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/c6.png 400w, 
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/c6.png 800w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/c6.png 1200w,
+										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/c6.png 1600w' 
+							    	alt='phone' 
+							    	id='br4'
+							    /> 
 						    </div> 					      
 						</div>								 
 					</section>

@@ -28,27 +28,48 @@
 }
 
 .parallax3-container .parallax3-section:nth-child(1){
-	background: url("/public/Images/bh.png");
 	background-size: cover;
 	background-position: center 20%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+
+	background-image: url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bh.png");
+  background-image: -webkit-image-set(
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/bh.png") 400w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bh.png") 800w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/bh.png") 1200w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/bh.png") 1600w
+  );
 }
 
 .parallax3-container .parallax3-section:nth-child(2){
-	background: url("/public/Images/bh.png");
 	background-size: cover;
 	background-position: center 40%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+
+	background-image: url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bh.png");
+  background-image: -webkit-image-set(
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/bh.png") 400w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bh.png") 800w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/bh.png") 1200w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/bh.png") 1600w
+  );
 }
 
 .parallax3-container .parallax3-section:nth-child(3){
-	background: url("/public/Images/bh.png");
 	background-size: cover;
 	background-position: center 60%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+
+	background-image: url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bh.png");
+  background-image: -webkit-image-set(
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/bh.png") 400w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bh.png") 800w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/bh.png") 1200w,
+    url("https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/bh.png") 1600w
+  );
 }
 
 #bridalSec3{

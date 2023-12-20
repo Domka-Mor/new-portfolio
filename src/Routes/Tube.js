@@ -8,15 +8,19 @@ export default function Tube(props){
 	gsap.registerPlugin(ScrollTrigger);
 	const canvasRef = useRef(null)
 
+	const width = window.innerWidth
+	const height = window.innerHeight
+
 	useEffect(()=>{
 		const canvas = canvasRef.current;
-		canvas.width = window.innerWidth;
-		canvas.height = window.innerHeight;
+		canvas.width = width;
+		canvas.height = height;
 
 		const context = canvas.getContext("2d");
 		const frameCount = 180;
 
-		const currentFrame = (index) => `/gulka3/${(index + 1).toString()}.jpg`;
+		// const currentFrame = (index) => `/gulka3/${(index + 1).toString()}.jpg`;
+		const currentFrame = (index) => `https://ik.imagekit.io/9nwcjxetq/gulka3/tr:w-${width},h-${height}/${(index + 1).toString()}.jpg`;
 		const images = [];
 		let ball = { frame: 0 };
 
