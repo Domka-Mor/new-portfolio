@@ -143,15 +143,7 @@ export default function BridalSalon() {
 				  	<section className='parallax3-section' id='bridalSec'>						
 					    <div className='preloaderBridal-body'>
 					        <h1>La Novia</h1> 
-					        <img 
-					        	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bride1.png' 
-									srcSet= 'https://ik.imagekit.io/9nwcjxetq/Images/tr:w-400/bride1.png 400w, 
-										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/bride1.png 800w,
-										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1200/bride1.png 1200w,
-										https://ik.imagekit.io/9nwcjxetq/Images/tr:w-1600/bride1.png 1600w' 
-					        	alt='img' 
-					        	id='bride'
-					        />	 							              
+					        <img src='https://ik.imagekit.io/9nwcjxetq/Images/bride1.png' alt='img' id='bride'/>	 							              
 					    </div>				   
 						<div className='links2'>
 							<ul>
@@ -171,7 +163,7 @@ export default function BridalSalon() {
 						<div id='bridalDiv2'>
 							<div className="content7">
 								<div className='overlayBrid'>
-									<img src='/Images/bridal1.png' alt='img' id='bridal2'/>
+									<img src='https://ik.imagekit.io/9nwcjxetq/Images/bridal1.png' alt='img' id='bridal2'/>
 								</div>		
 							     <img 
 							    	id='bridal1' 
@@ -203,7 +195,7 @@ export default function BridalSalon() {
 						<div id='bridalDiv3'>
 							<div className="content8">
 								<div className='overlayBridal'>
-									<img src='/Images/bridal4.png' alt='img' id='brid2'/>
+									<img src='https://ik.imagekit.io/9nwcjxetq/Images/bridal4.png' alt='img' id='brid2'/>
 								</div>		
 							    <img 
 							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 

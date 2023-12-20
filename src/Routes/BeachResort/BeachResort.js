@@ -139,7 +139,7 @@ export default function BeachResort() {
 						<div id='beachDiv2'>								
 							<div className="content4">
 								<div className='overlayBea'>
-									<img src='/Images/beach1.png' alt='img' id='beach2'/>						
+									<img src='https://ik.imagekit.io/9nwcjxetq/Images/beach.png' alt='img' id='beach2'/>						
 								</div>	
 							    <img 
 							    	id='beach1' 
@@ -171,7 +171,7 @@ export default function BeachResort() {
 						<div id='beachDiv3'>
 							<div className="content5">
 								<div className='overlayBeach'>
-									<img src='/Images/beach2.png' alt='img' id='bea2'/>
+									<img src='https://ik.imagekit.io/9nwcjxetq/Images/beach2.png' alt='img' id='bea2'/>
 								</div>		
 							    <img 
 							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 
@@ -204,7 +204,7 @@ export default function BeachResort() {
 						<div id='beachDiv4'>
 							<div className="content6">
 								<div className='overlayBeach2'>
-									<img src='/Images/beach3.png' alt='img' id='bea6'/>
+									<img src='https://ik.imagekit.io/9nwcjxetq/Images/beach3.png' alt='img' id='bea6'/>
 								</div>		
 							    <img 
 							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 

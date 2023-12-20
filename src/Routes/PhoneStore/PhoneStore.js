@@ -221,7 +221,7 @@ export default function PhoneStore() {
 						<div id='phoneDiv2'>
 							<div className="content">
 								<div className='overlayPhone'>
-									<img src='/Images/screen1.png' alt='phone' id='phone2'/>
+									<img src='https://ik.imagekit.io/9nwcjxetq/Images/screen1.png' alt='phone' id='phone2'/>
 								</div>		
 							    <img 
 							    	id='phone1' 
@@ -252,7 +252,7 @@ export default function PhoneStore() {
 						<div id='phoneDiv3'>
 							<div className="content2">
 								<div className='overlayLap'>
-									<img src='/Images/user.png' alt='phone' id='lap2'/>
+									<img src='https://ik.imagekit.io/9nwcjxetq/Images/user.png' alt='phone' id='lap2'/>
 								</div>		
 							    <img 
 							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 
@@ -284,7 +284,7 @@ export default function PhoneStore() {
 						<div id='phoneDiv4'>
 							<div className="content3">
 								<div className='overlayLap2'>
-									<img src='/Images/admin.png' alt='phone' id='lap6'/>
+									<img src='https://ik.imagekit.io/9nwcjxetq/Images/admin.png' alt='phone' id='lap6'/>
 								</div>		
 							    <img 
 							    	src='https://ik.imagekit.io/9nwcjxetq/Images/tr:w-800/lap.png' 
